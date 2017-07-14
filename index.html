@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Carme: Search Car</title>
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="CSS/Bootstrap-CSS/bootstrap.css">
+    <!--<link rel="stylesheet" href="CSS/Bootstrap-CSS/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" href="CSS/Bootstrap-CSS/bootstrap-grid.css">
+    <!--<link rel="stylesheet" href="CSS/Bootstrap-CSS/bootstrap-grid.min.css">-->
+    <!--<link rel="stylesheet" href="CSS/Bootstrap-CSS/bootstrap-reboot.min.css">-->
+    <!--<link rel="stylesheet" href="CSS/Bootstrap-CSS/bootstrap-reboot.css">-->
+    <!--<link rel="stylesheet" href="CSS/Font-Awesome-CSS/font-awesome.css">-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="CSS/carvah.css">
+</head>
+
+<body>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="" id="myForm">
+                    Name: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                    <input type="text" name="firstname"><br><br>
+                    Number: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;
+                    <input type="number" name="ZipCode"><br><br>
+                    Vehical Number: &nbsp; &nbsp;
+                    <input type="text" name="ZipCode">
+                </form>
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-primary">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="contactLabel">Contact Us</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form method="post" action="" id="myForm1">
+                Name: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                <input type="text" name="firstname"><br><br>
+                Number: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="number" name="ZipCode"><br><br>
+                Vehical Number: &nbsp; &nbsp;
+                <input type="text" name="ZipCode"><br><br>
+                Email: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="text" name="ZipCode"><br><br>
+                Message: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;
+                <input type="text" name="ZipCode"><br><br>
+            </form>
+        </div>
+        <div class="modal-footer">
+
+            <button type="button" class="btn btn-primary">Contact</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="download1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="downloadLabel">Download</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="" id="myForm2">
+                    Name: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                    <input type="text" name="firstname"><br><br>
+                    Number: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="number" name="ZipCode"><br><br>
+                </form>
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-primary">Send Link</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="ios" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="iosLabel">Download</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="" id="myForm3">
+                    Name: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                    <input type="text" name="firstname"><br><br>
+                    Number: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="number" name="ZipCode"><br><br>
+                </form>
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-primary">Send Link</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="playstore" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="playstoreLabel">Download</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="" id="myForm4">
+                    Name: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                    <input type="text" name="firstname"><br><br>
+                    Number: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="number" name="ZipCode"><br><br>
+                </form>
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-primary">Send Link</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <nav class="navbar-toggleable-md  navbar navbar-inverse bg-inverse navbar-no-bg" id="navbar">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"> &nbsp; &nbsp; <img src="images/logo.png" id="logo"></a>
+        <div class="col-6"></div>
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link"  href="#Features">Features <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#How-It-Works">How IT Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" data-target="#exampleModal">Registration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact-Us" data-toggle="modal" data-target="#contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <img src="images/Untitled-1.jpg" id="mainbg">
+    <img src="images/iphone6-plus-box-space-gray-20142.png"  id="iphone">
+    <a id="heading">Anyone Anywhere</a>
+    <a id="description">
+        <p>
+            One stop solution for all your parking problems.<br>Now search the vehicle owner blocking your way <br>and save your precious time and energy.
+        </p>
+    </a>
+    <img src="images/Available_on_the_App_Store_(black).png" class="appstore" id="appstore" data-toggle="modal" data-target="#ios">
+    <img src="images/Get-it-on-Google-Play.png" class="android" id="googleplay" data-toggle="modal" data-target="#playstore">
+    <img src="images/nexus-6p-02_1x.png" id="android">
+
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <a id="Features">APP Features</a>
+            <span></span>
+        </div>
+    </div>
+<div class="row">
+    <div class="col-4">
+        <span class="fa fa-lock" aria-hidden="true" id="font1"></span>
+        <a id="privacy">Privacy</a>
+        <a id="privacydescrip">
+            <p>
+                Carme also provides you with the feature of broadcasting your requirements at one click. So now no need to contact the donors individually, all you need to do is just search your requirements by selecting blood group and distance, and click broadcast button and all the donors will receive the message with your contact details and will contact you directly.
+
+
+            </p>
+        </a>
+        <i class="fa fa-calendar" aria-hidden="true" id="font2"></i>
+        <a id="pr">Pollution Reminder</a>
+        <a id="prdescrip">
+            <p>
+                Forgetting the pollution control papers’ renewal is no more a problem, since it is looked after by Carme now! Car owners can just enter their pollution details, and the next renewal prompt is given by Carme.
+            </p>
+        </a>
+    </div>
+    <div class="col-4">
+        <img src="images/iphone6-plus-box-space-gray-20142.png" id="appfeature1">
+    </div>
+    <div class="col-sm-4">
+        <i class="fa fa-calendar-check-o" aria-hidden="true" id="font3"></i>
+        <a id="insurence">Insurence Reminder</a>
+        <a id="insurencedescrip">
+            <p>
+
+                Similarly, car insurance would not be missed anymore. Users can put in the insurance details and the renewal aide-mémoire is Carme’s obligation thereafter.
+            </p>
+        </a>
+        <i class="fa fa-picture-o" aria-hidden="true" id="font4"></i>
+        <a id="picupload">Picture Upload</a>
+        <a id="picdescrips">
+            <p>
+                What more to ensure the validation of the car identity than a picture itself, for Carme lets the users add the car’s pictures as well as the owners’ pictures to the application, thereby giving no chance of mismanagement.
+            </p>
+        </a>
+    </div>
+</div>
+</div>
+<p><br><br><br><br><br><br><br></p>
+
+
+<div class="container"  id="hello">
+
+<a id="How-It-Works">How &nbsp;IT &nbsp;Works</a>
+        <img src="images/Untitled-1.jpg" id="main2bg">
+
+<i class="fa fa-download" aria-hidden="true" id="download" ></i>
+        <i class="fa fa-circle" aria-hidden="true" id="circle1"></i>
+        <a id="one">1</a>
+        <a id="down">Download</a>
+        <a id="downdescrip">
+            <p>
+                Download the application from google play<br>&nbsp; &nbsp; &nbsp; store or App store for Apple users
+            </p>
+        </a>
+
+        <i class="fa fa-user-plus" aria-hidden="true" id="register"></i>
+    <i class="fa fa-circle" aria-hidden="true" id="circle2"></i>
+    <a id="two">2</a>
+        <a id="regist">Register</a>
+        <a id="registdes">
+            <p>
+                The user needs to register/ sign-up using<br>&nbsp; &nbsp; there name and mobile number and<br>&nbsp; &nbsp; &nbsp; &nbsp; also selecting there city.
+            </p>
+        </a>
+    <i class="fa fa-users" aria-hidden="true" id="users"></i>
+    <i class="fa fa-circle" aria-hidden="true" id="circle3"></i>
+    <a id="three">3</a>
+    <a id="vehical">Enter your Vehicle number</a>
+    <a id="vehicaldescrip">
+        <p>
+            Enter the vehicle number in the vehicle search column.</p>
+    </a>
+
+    <i class="fa fa-thumbs-up" aria-hidden="true" id="like"></i>
+    <i class="fa fa-circle" aria-hidden="true" id="circle4"></i>
+    <a id="four">4</a>
+    <a id="go">Good To Go</a>
+    <a id="godescrip">
+        <p>
+            Once all the required details are entered,<br> &nbsp; &nbsp; &nbsp; &nbsp; the application is good to go <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; without any charges!</p>
+    </a>
+    <button type="button" class="btn btn-primary btn-lg" id="downloadbutton" data-toggle="modal" data-target="#download1">Download</button>
+</div>
+
+<div class="container">
+
+            <a id="more">More Features</a>
+            <img src="images/nexus-6p-02_1x.png" id="morefeatures">
+
+            <i class="fa fa-paperclip" aria-hidden="true" id="multiple"></i>
+            <a id="multiplehead">One User Multiple Vehicles</a>
+            <a id="multipledescrip">
+                <p>
+                    One user can add multiple vehicles, however, one vehicle can be entered by only one user, to avoid multiple entries and chaos thereafter!
+                </p>
+            </a>
+    <i class="fa fa-users" aria-hidden="true" id="multiplecar"></i>
+    <a id="multiplecarhead">One Vehicle Multiple Members</a>
+    <a id="multiplecardescrip">
+        <p>
+            One user can add multiple members to a single vehicle, wherein the members belong to same family and can be available to move the vehicle, when required.
+
+        </p>
+    </a>
+
+    <i class="fa fa-cloud-upload" aria-hidden="true" id="upload"></i>
+    <a id="uploadhead">No Duplicate Entries</a>
+    <a id="uploaddescrip">
+        <p>
+            A vehicle once entered, cannot be added by another user without the initial owner’s permission. In case of second hand buys, the first owner needs to delete the vehicle details from his/her profile, to let the second owner enter the vehicle in his/her name.
+
+        </p>
+    </a>
+
+    <i class="fa fa-bolt" aria-hidden="true" id="notice"></i>
+    <a id="noticehead">Easy To Notify</a>
+    <a id="noticedescrip">
+        <p>
+            The trapped user can notify the other vehicle’s owner via call, SMS, or an alert in the application, which would intimate the vehicle owner to move their vehicle from the parking in order to let the trapped user move their vehicle.
+
+        </p>
+    </a>
+
+</div>
+<div>
+
+    <img src="images/main.jpg" id="counter">
+    <a id="testimonial">
+        Testimonials
+    </a>
+    <div id="carouselExampleControls" class="carousel slide tetsy" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <a id="testy1">
+                    <p>
+                        We are extremely satisfied with the services provided by Carvah, it helps us save a lot of time.<br><br>"Megha"
+                    </p>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a id="testy2">
+                    <p>
+                        "A new concept and a great step towards the betterment of the society. Cheers! "<br><br>
+                        Geeta
+                    </p>
+                </a>
+            </div>
+            <!--<div class="carousel-item">-->
+                <!--<a id="testy3">-->
+                    <!--<p>-->
+
+                        <!--"The added advantage is the reminder for pollution and insurance expiry date.<br> No more hassle of forgetting and paying challans. As now the renewals are done on time."<br><br>-->
+                        <!--Mithun Sharma                    </p>-->
+                <!--</a>-->
+            <!--</div>-->
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+</div>
+ <div>
+    <a href="https://en-gb.facebook.com/">
+        <i class="fa fa-facebook" aria-hidden="true" id="facebook" href="https://en-gb.facebook.com/"></i></a>
+    <a href="https://twitter.com/login">
+        <i class="fa fa-twitter" aria-hidden="true" id="twitter" href="https://twitter.com/login"></i></a>
+    <a href="https://in.linkedin.com/">
+        <i class="fa fa-linkedin" aria-hidden="true" id="linkedin" href="https://in.linkedin.com/"></i></a>
+    <a href="https://www.youtube.com/">
+        <i class="fa fa-youtube-play" aria-hidden="true" id="youtube" href="https://www.youtube.com/"></i></a>
+    <a href="https://www.instagram.com/?hl=en">
+    <i class="fa fa-instagram" aria-hidden="true" id="instagram" href="https://www.instagram.com/?hl=en"></i>
+    </a>
+</div>
+    <!-- BOOTSTRAP AND MATERIALIZE JS -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="JS/Bootstrap-JS/bootstrap.js"></script>
+<script src="JS/Bootstrap-JS/bootstrap.min.js"></script>
+
+</body>
+</html>
